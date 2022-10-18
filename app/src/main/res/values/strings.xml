@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tragaperras</string>
+    <string name="binevenida">Bienvenido/a a tu App TRAGAPERRAS</string>
+    <string name="empezarJuego">EMPIEZA A JUGAR</string>
+    <string name="salir">SALIR</string>
+    <string name="credito">CRÉDITO</string>
+    <string name="jugar">JUGAR</string>
+    <string name="estrella">estrella</string>
+    <string name="mas">mas</string>
+    <string name="puntoRojo">puntoRojo</string>
+    <string name="microVerde">microVerde</string>
+    <string name="camaraNaranja">camaraNaranja</string>
+    <string name="estrella2">estrella2</string>
+    <string name="mas2">mas2</string>
+    <string name="puntoRojo2">puntoRojo2</string>
+    <string name="microVerde2">microVerde2</string>
+    <string name="camaraNaranja2">camaraNaranja2</string>
+    <string name="estrella3">estrella3</string>
+    <string name="mas3">mas3</string>
+    <string name="puntoRojo3">puntoRojo3</string>
+    <string name="microVerde3">microVerde3</string>
+    <string name="camaraNaranja3">camaraNaranja3</string>
+    <string name="despedida">Tragaperras</string>
+    <string name="reglas">Reglas del juego</string>
+    <string name="volver">VOLVER</string>
+    <string name="mascredito">+CRÉDITOS</string>
+</resources>

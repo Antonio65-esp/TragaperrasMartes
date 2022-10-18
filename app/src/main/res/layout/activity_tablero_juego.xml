@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableroJuego">
+
+    <Button
+        android:id="@+id/botonVolver2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="71dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="128dp"
+        android:text="Ventana2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="71dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="132dp"
+        android:text="Ventana1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="71dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="68dp"
+        android:text="Ventana3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tvCredito"
+        android:layout_width="82dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:hint="@string/credito"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonJugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="54dp"
+        android:text="@string/jugar"
+        app:layout_constraintBottom_toTopOf="@+id/estrella2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonMasCredito"
+        android:layout_width="117dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="91dp"
+        android:text="@string/mascredito"
+        app:layout_constraintBottom_toTopOf="@+id/estrella1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/estrella1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mas1"
+        app:layout_constraintEnd_toStartOf="@+id/estrella2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageButton
+        android:id="@+id/mas1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/puntoRojo1"
+        app:layout_constraintEnd_toStartOf="@+id/mas2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/estrella1"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <ImageButton
+        android:id="@+id/puntoRojo1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/camaraAmbar1"
+        app:layout_constraintEnd_toStartOf="@+id/puntoRojo2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mas1"
+        app:srcCompat="@android:drawable/ic_notification_overlay" />
+
+    <ImageButton
+        android:id="@+id/camaraAmbar1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/microVerde1"
+        app:layout_constraintEnd_toStartOf="@+id/camaraAmbar2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/puntoRojo1"
+        app:srcCompat="@android:drawable/presence_video_away" />
+
+    <ImageButton
+        android:id="@+id/microVerde1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginBottom="69dp"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/microVerde2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camaraAmbar1"
+        app:srcCompat="@android:drawable/presence_audio_online" />
+
+    <ImageButton
+        android:id="@+id/estrella2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="9dp"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mas2"
+        app:layout_constraintEnd_toStartOf="@+id/estrella3"
+        app:layout_constraintStart_toEndOf="@+id/estrella1"
+        app:layout_constraintTop_toBottomOf="@+id/tv2"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageButton
+        android:id="@+id/mas2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/puntoRojo2"
+        app:layout_constraintEnd_toStartOf="@+id/mas3"
+        app:layout_constraintStart_toEndOf="@+id/mas1"
+        app:layout_constraintTop_toBottomOf="@+id/estrella2"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <ImageButton
+        android:id="@+id/puntoRojo2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/camaraAmbar2"
+        app:layout_constraintEnd_toStartOf="@+id/puntoRojo3"
+        app:layout_constraintStart_toEndOf="@+id/puntoRojo1"
+        app:layout_constraintTop_toBottomOf="@+id/mas2"
+        app:srcCompat="@android:drawable/ic_notification_overlay" />
+
+    <ImageButton
+        android:id="@+id/camaraAmbar2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/microVerde2"
+        app:layout_constraintEnd_toStartOf="@+id/camaraAmbar3"
+        app:layout_constraintStart_toEndOf="@+id/camaraAmbar1"
+        app:layout_constraintTop_toBottomOf="@+id/puntoRojo2"
+        app:srcCompat="@android:drawable/presence_video_away" />
+
+    <ImageButton
+        android:id="@+id/microVerde2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="69dp"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/microVerde3"
+        app:layout_constraintStart_toEndOf="@+id/microVerde1"
+        app:layout_constraintTop_toBottomOf="@+id/camaraAmbar2"
+        app:srcCompat="@android:drawable/presence_audio_online" />
+
+    <ImageButton
+        android:id="@+id/estrella3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="56dp"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mas3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/estrella2"
+        app:layout_constraintTop_toTopOf="@+id/tv3"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageButton
+        android:id="@+id/mas3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="56dp"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/puntoRojo3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mas2"
+        app:layout_constraintTop_toBottomOf="@+id/estrella3"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <ImageButton
+        android:id="@+id/puntoRojo3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="56dp"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/camaraAmbar3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/puntoRojo2"
+        app:layout_constraintTop_toBottomOf="@+id/mas3"
+        app:srcCompat="@android:drawable/ic_notification_overlay" />
+
+    <ImageButton
+        android:id="@+id/camaraAmbar3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="56dp"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/microVerde3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/camaraAmbar2"
+        app:layout_constraintTop_toBottomOf="@+id/puntoRojo3"
+        app:srcCompat="@android:drawable/presence_video_away" />
+
+    <ImageButton
+        android:id="@+id/microVerde3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="69dp"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/microVerde2"
+        app:layout_constraintTop_toBottomOf="@+id/camaraAmbar3"
+        app:srcCompat="@android:drawable/presence_audio_online" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
